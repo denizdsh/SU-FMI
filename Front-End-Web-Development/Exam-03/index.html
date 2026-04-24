@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Advanced</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <aside class="side-panel">
+        <section class="action-section">
+            <h2>Move</h2>
+            <button class="action-button move-right">
+                <span class="icon">→</span>
+                <span>Move to right list</span>
+            </button>
+            <button class="action-button move-left">
+                <span class="icon">←</span>
+                <span>Move to left list</span>
+            </button>
+        </section>
+        <section class="action-section">
+            <h2>Add</h2>
+            <div class="input-group">
+                <input type="text" placeholder="Enter item name...">
+            </div>
+            <button class="action-button primary" id="add-button">
+                <span class="icon">+</span>
+                <span>Add item</span>
+            </button>
+        </section>
+        <section class="action-section">
+            <h2>Sort</h2>
+            <button class="action-button" data-sort="ascending">
+                <span class="icon">↑</span>
+                <span>A → Z (Ascending)</span>
+            </button>
+            <button class="action-button" data-sort="descending">
+                <span class="icon">↓</span>
+                <span>Z → A (Descending)</span>
+            </button>
+        </section>
+        <section class="action-section">
+            <h2>Clean up</h2>
+            <button class="action-button" remove-duplicates>
+                <span>Remove duplicates</span>
+            </button>
+        </section>
+        <section class="action-section">
+            <h2>Appearance</h2>
+            <div class="color-picker-group">
+                <label for="bg-color-input">Item color:</label>
+                <input type="color" id="bg-color-input" value="#fafafa">
+            </div>
+            <button class="action-button" id="apply-bg-button">
+                <span>Apply background</span>
+            </button>
+        </section>
+        <section class="action-section">
+            <h2>Delete</h2>
+            <button class="action-button danger" data-button="delete-items">
+                <span>Delete items</span>
+            </button>
+        </section>
+    </aside>
+
+    <main class="container">
+        <section class="list-container">
+            <h2>Available Items</h2>
+            <ul class="list">
+                <li class="list-item">
+                    <input type="checkbox">
+                    <label>1</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox">
+                    <label>2</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox">
+                    <label>3</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox">
+                    <label>4</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox">
+                    <label>5</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox">
+                    <label>5</label>
+                </li>
+            </ul>
+        </section>
+
+        <section class="list-container">
+            <h2>Selected Items</h2>
+            <ul class="list">
+                <li class="list-item">
+                    <input type="checkbox">
+                    <label>1</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox">
+                    <label>2</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox">
+                    <label>2</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox">
+                    <label>3</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox">
+                    <label>3</label>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <script type="module" src="solution.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane prefHeight="200.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="problem01.CalendarController">
+    <children>
+        <GridPane fx:id="container" alignment="CENTER" layoutY="69.0" AnchorPane.bottomAnchor="0.0"
+                  AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <columnConstraints>
+                <ColumnConstraints minWidth="48.0" prefWidth="48.0"/>
+                <ColumnConstraints minWidth="48.0" prefWidth="48.0"/>
+                <ColumnConstraints minWidth="48.0" prefWidth="48.0"/>
+                <ColumnConstraints minWidth="48.0" prefWidth="48.0"/>
+                <ColumnConstraints minWidth="48.0" prefWidth="48.0"/>
+                <ColumnConstraints minWidth="48.0" prefWidth="48.0"/>
+                <ColumnConstraints minWidth="48.0" prefWidth="48.0"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="24.0" prefHeight="24.0"/>
+                <RowConstraints minHeight="24.0" prefHeight="24.0"/>
+                <RowConstraints minHeight="24.0" prefHeight="24.0"/>
+                <RowConstraints minHeight="24.0" prefHeight="24.0"/>
+                <RowConstraints minHeight="24.0" prefHeight="24.0"/>
+                <RowConstraints minHeight="24.0" prefHeight="24.0"/>
+                <RowConstraints minHeight="24.0" prefHeight="24.0"/>
+            </rowConstraints>
+            <children>
+                <Label text="MON"/>
+                <Label text="TUE" GridPane.columnIndex="1"/>
+                <Label text="WED" GridPane.columnIndex="2"/>
+                <Label text="THR" GridPane.columnIndex="3"/>
+                <Label text="FRI" GridPane.columnIndex="4"/>
+                <Label text="SAT" GridPane.columnIndex="5"/>
+                <Label text="SUN" GridPane.columnIndex="6"/>
+                <!--Days in Calendar-->
+                <Label GridPane.columnIndex="0" GridPane.rowIndex="1" fx:id="day_1"/>
+                <Label GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="day_2"/>
+                <Label GridPane.columnIndex="2" GridPane.rowIndex="1" fx:id="day_3"/>
+                <Label GridPane.columnIndex="3" GridPane.rowIndex="1" fx:id="day_4"/>
+                <Label GridPane.columnIndex="4" GridPane.rowIndex="1" fx:id="day_5"/>
+                <Label GridPane.columnIndex="5" GridPane.rowIndex="1" fx:id="day_6"/>
+                <Label GridPane.columnIndex="6" GridPane.rowIndex="1" fx:id="day_7"/>
+
+                <Label GridPane.columnIndex="0" GridPane.rowIndex="2" fx:id="day_8"/>
+                <Label GridPane.columnIndex="1" GridPane.rowIndex="2" fx:id="day_9"/>
+                <Label GridPane.columnIndex="2" GridPane.rowIndex="2" fx:id="day_10"/>
+                <Label GridPane.columnIndex="3" GridPane.rowIndex="2" fx:id="day_11"/>
+                <Label GridPane.columnIndex="4" GridPane.rowIndex="2" fx:id="day_12"/>
+                <Label GridPane.columnIndex="5" GridPane.rowIndex="2" fx:id="day_13"/>
+                <Label GridPane.columnIndex="6" GridPane.rowIndex="2" fx:id="day_14"/>
+
+                <Label GridPane.columnIndex="0" GridPane.rowIndex="3" fx:id="day_15"/>
+                <Label GridPane.columnIndex="1" GridPane.rowIndex="3" fx:id="day_16"/>
+                <Label GridPane.columnIndex="2" GridPane.rowIndex="3" fx:id="day_17"/>
+                <Label GridPane.columnIndex="3" GridPane.rowIndex="3" fx:id="day_18"/>
+                <Label GridPane.columnIndex="4" GridPane.rowIndex="3" fx:id="day_19"/>
+                <Label GridPane.columnIndex="5" GridPane.rowIndex="3" fx:id="day_20"/>
+                <Label GridPane.columnIndex="6" GridPane.rowIndex="3" fx:id="day_21"/>
+
+                <Label GridPane.columnIndex="0" GridPane.rowIndex="4" fx:id="day_22"/>
+                <Label GridPane.columnIndex="1" GridPane.rowIndex="4" fx:id="day_23"/>
+                <Label GridPane.columnIndex="2" GridPane.rowIndex="4" fx:id="day_24"/>
+                <Label GridPane.columnIndex="3" GridPane.rowIndex="4" fx:id="day_25"/>
+                <Label GridPane.columnIndex="4" GridPane.rowIndex="4" fx:id="day_26"/>
+                <Label GridPane.columnIndex="5" GridPane.rowIndex="4" fx:id="day_27"/>
+                <Label GridPane.columnIndex="6" GridPane.rowIndex="4" fx:id="day_28"/>
+
+                <Label GridPane.columnIndex="0" GridPane.rowIndex="5" fx:id="day_29"/>
+                <Label GridPane.columnIndex="1" GridPane.rowIndex="5" fx:id="day_30"/>
+                <Label GridPane.columnIndex="2" GridPane.rowIndex="5" fx:id="day_31"/>
+                <Label GridPane.columnIndex="3" GridPane.rowIndex="5" fx:id="day_32"/>
+                <Label GridPane.columnIndex="4" GridPane.rowIndex="5" fx:id="day_33"/>
+                <Label GridPane.columnIndex="5" GridPane.rowIndex="5" fx:id="day_34"/>
+                <Label GridPane.columnIndex="6" GridPane.rowIndex="5" fx:id="day_35"/>
+
+                <Label GridPane.columnIndex="0" GridPane.rowIndex="6" fx:id="day_36"/>
+                <Label GridPane.columnIndex="1" GridPane.rowIndex="6" fx:id="day_37"/>
+                <Label GridPane.columnIndex="2" GridPane.rowIndex="6" fx:id="day_38"/>
+                <Label GridPane.columnIndex="3" GridPane.rowIndex="6" fx:id="day_39"/>
+                <Label GridPane.columnIndex="4" GridPane.rowIndex="6" fx:id="day_40"/>
+                <Label GridPane.columnIndex="5" GridPane.rowIndex="6" fx:id="day_41"/>
+                <Label GridPane.columnIndex="6" GridPane.rowIndex="6" fx:id="day_42"/>
+                <!--END OF -> Days in Calendar-->
+            </children>
+        </GridPane>
+    </children>
+</AnchorPane>
